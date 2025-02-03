@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}.container{
+    max-width: 1240px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.varmadrid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 51px;
+}
+ul {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+ul li a:hover {
+   color: #EF400F;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+.tap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.tap button {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid orangered;
+  color: orangered;
+  background-color: white;
+}
+.parend a {
+  color: #bcaaaa;
+}
+.parend .yeelloww {
+  color: orangered;
+}
+.nobmadird {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 100px;
+}
+.realmadrid {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dembele {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.bale {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dembele input {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+.dembele button {
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+.bale h4 {
+  color: orangered;
+}
+
+.first_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.something {
+  color: grey;
+  margin: auto;
+}
+
+.second_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+.three_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+.allfoter{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
